@@ -12,3 +12,14 @@ add_library(single-intrusive-linked-list-lib
 add_executable(single-intrusive-linked-list-demo single_demo.c)
 
 target_link_libraries(single-intrusive-linked-list-demo PRIVATE single-intrusive-linked-list-lib)
+
+#double-ill demo
+add_library(double-intrusive-linked-list-lib
+            data.h
+            double_intrusive_linked_list.h
+            double_intrusive_linked_list.c
+            )
+
+add_executable(double-intrusive-linked-list-demo double_demo.c)
+
+target_link_libraries(double-intrusive-linked-list-demo PRIVATE double-intrusive-linked-list-lib)
