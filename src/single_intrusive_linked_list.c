@@ -1,7 +1,7 @@
 /* Single intrusive linked list */
 
-#include "single_intrusive_linked_list.h"
-#include "macros.h"
+#include <include/single_intrusive_linked_list.h>
+#include <include/macros.h>
 
 
 bool s_ill_create(single_ill_t* ill)

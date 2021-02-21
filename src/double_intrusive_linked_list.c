@@ -1,7 +1,7 @@
 /* Double intrusive linked list */
 
-#include "double_intrusive_linked_list.h"
-#include "macros.h"
+#include <include/double_intrusive_linked_list.h>
+#include <include/macros.h>
 
 
 bool d_ill_create(double_ill_t* ill)
